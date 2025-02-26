@@ -1,14 +1,13 @@
 import './App.css'
+import Stories from './components/Stories'
+import Navbar from './components/Navbar'
 
 function App() {
-  
-
   return (
-    <>
-
-    HackerNews
-  
-    </>
+    <div>
+      <Navbar/>
+      <Stories/>
+    </div> 
   )
 }
 
